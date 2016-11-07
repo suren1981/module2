@@ -10,7 +10,7 @@ section {
 
 @media (min-width: 1200px) {
   p {
-  float: left;
+  float: right;
   border: 5px solid black;
    }
   .col-lg-1, .col-lg-2, .col-lg-3 {
