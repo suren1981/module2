@@ -6,8 +6,8 @@ h1 {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
-    border: 10px solid black;
-    margin: 50px
+    border: 5px solid black;
+    margin: 20px
   }
   .col-lg-1 {
     width: 25%;
