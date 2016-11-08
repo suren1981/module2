@@ -14,9 +14,25 @@ section {
     }
 
 @media (min-width: 1200px) {
-  .ch, .b, .s {
+  .ch {
   text-align: center;
   background-color: red;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+   .b {
+  text-align: center;
+  background-color: blue;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+  .s {
+  text-align: center;
+  background-color: #DEB887;
   border: 2px solid black;
   width: 70px;
   height: 20px;
@@ -40,14 +56,29 @@ section {
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .b {
+  .ch {
+  text-align: center;
+  background-color: red;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+   .b {
   text-align: center;
   background-color: blue;
   border: 2px solid black;
   width: 70px;
   height: 20px;
-  position: relative;
-  right: -275px;  
+  margin-left: auto;
+  }
+  .s {
+  text-align: center;
+  background-color: #DEB887;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
   }
   .col-md-1, .col-md-2, .col-md-3 {
     float: left;
@@ -67,14 +98,29 @@ section {
 
 /********** small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+   .ch {
+  text-align: center;
+  background-color: red;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+   .b {
+  text-align: center;
+  background-color: blue;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
   .s {
   text-align: center;
   background-color: #DEB887;
   border: 2px solid black;
   width: 70px;
   height: 20px;
-  position: relative;
-  right: -275px;  
+  margin-left: auto;
   }
   .col-sm-1, .col-sm-2, .col-sm-3 {
     float: left;
