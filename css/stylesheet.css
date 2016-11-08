@@ -1,7 +1,13 @@
 h1 {
   margin-bottom: 100px;
   background-color: #A52A2A;
-  }
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;  
+}
 section {
     float: left;
     border: 5px solid black;
@@ -9,14 +15,14 @@ section {
     }
 
 @media (min-width: 1200px) {
-  div {
+  .ch {
   text-align: center;
   background-color: red;
   border: 2px solid black;
   width: 70px;
   height: 20px;
   position: relative;
-  right: 0px;  
+  right: -275px;  
   }
   .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
@@ -36,6 +42,15 @@ section {
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  .b {
+  text-align: center;
+  background-color: blue;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  position: relative;
+  right: -275px;  
+  }
   .col-md-1, .col-md-2, .col-md-3 {
     float: left;
     border: 5px solid black;
@@ -54,6 +69,15 @@ section {
 
 /********** small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .s {
+  text-align: center;
+  background-color: #DEB887;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  position: relative;
+  right: -275px;  
+  }
   .col-sm-1, .col-sm-2, .col-sm-3 {
     float: left;
     border: 5px solid black;
