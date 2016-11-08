@@ -14,7 +14,7 @@ section {
     }
 
 @media (min-width: 1200px) {
-  .ch .b .s {
+  .ch, .b, .s {
   text-align: center;
   background-color: red;
   border: 2px solid black;
