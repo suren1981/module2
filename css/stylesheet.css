@@ -11,9 +11,13 @@ section {
     float: left;
     border: 5px solid black;
     margin: 20px;
+    background-color: gray;
     }
 
 @media (min-width: 1200px) {
+  section {
+  background-color: gray;
+  }
   .ch {
   text-align: center;
   background-color: red;
@@ -56,6 +60,9 @@ section {
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  section {
+  background-color: gray;
+  }
   .ch {
   text-align: center;
   background-color: red;
@@ -98,7 +105,10 @@ section {
 
 /********** small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-   .ch {
+  section {
+  background-color: gray;
+  } 
+  .ch {
   text-align: center;
   background-color: red;
   border: 2px solid black;
