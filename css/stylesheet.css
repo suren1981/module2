@@ -7,6 +7,30 @@ h1 {
   margin-left: auto;
   font-family: Helvetica;  
 }
+.ch {
+  text-align: center;
+  background-color: red;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+   .b {
+  text-align: center;
+  background-color: blue;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
+  .s {
+  text-align: center;
+  background-color: #DEB887;
+  border: 2px solid black;
+  width: 70px;
+  height: 20px;
+  margin-left: auto;
+  }
 section {
     float: left;
     border: 5px solid black;
