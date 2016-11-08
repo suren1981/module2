@@ -10,12 +10,12 @@ section {
 
 @media (min-width: 1200px) {
   .ch {
-  text-align: right;
+  text-align: center;
   background-color: red;
   border: 2px solid black;
   width: 70px;
   height: 20px;
-  margin-right: 0px;  
+  float: right;  
   }
   .col-lg-1, .col-lg-2, .col-lg-3 {
     float: left;
@@ -30,6 +30,9 @@ section {
   }
   .col-lg-3 {
     width: 25%;
+  }
+  section {
+  clear: right;
   }
 }
 /********** Medium devices only **********/
