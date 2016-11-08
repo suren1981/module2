@@ -90,16 +90,16 @@ section {
   .col-md-1, .col-md-2, .col-md-3 {
     float: left;
     border: 5px solid black;
-    margin: 20px;
+    margin: 10px;
   }
   .col-md-1 {
-    width: 50%;
+    width: 45%;
   }
   .col-md-2 {
-    width: 50%;
+    width: 45%;
   }
   .col-md-3 {
-    width: 100%;
+    width: 95%;
   }
 }
 
