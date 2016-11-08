@@ -99,7 +99,7 @@ section {
     width: 45%;
   }
   .col-md-3 {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -135,15 +135,15 @@ section {
   .col-sm-1, .col-sm-2, .col-sm-3 {
     float: left;
     border: 5px solid black;
-    margin: 20px;
+    margin: 10px;
   }
   .col-sm-1 {
-    width: 100%;
+    width: 95%;
   }
   .col-sm-2 {
-    width: 100%;
+    width: 95%;
   }
   .col-sm-3 {
-    width: 100%;
+    width: 95%;
   }
 }
